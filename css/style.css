@@ -16,3 +16,64 @@ body {
     background-size: 27px 27px;
     color: white;
 }
+
+/* Import pixel font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 20px 6%;
+
+    border-bottom: 2px solid white;
+}
+
+/* Logo */
+.logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+/* Navigation */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    list-style: none;
+}
+
+
+/* Game-style buttons */
+.nav-links li a {
+    display: inline-block;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+
+    padding: 15px 12px;
+
+    background: #151515;
+    border: 2px solid white;
+
+    box-shadow: 4px 4px 0px white;
+
+    transition: 0.15s ease;
+}
+
+
+/* Hover effect */
+.nav-links li a:hover {
+    background: white;
+    color: black;
+
+    transform: translate(3px, 3px);
+    box-shadow: 1px 1px 0px white;
+}
