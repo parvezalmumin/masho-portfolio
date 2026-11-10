@@ -10,9 +10,9 @@ body {
     background-color: #080808;
 
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+        linear-gradient(rgba(255, 255, 255, 0.20) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.20) 1px, transparent 1px);
 
-    background-size: 25px 25px;
+    background-size: 27px 27px;
     color: white;
 }
